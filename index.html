@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-900 flex items-center justify-center min-h-[600px]">
+    <form id="myAtm"
+        class="bg-slate-800 text-white w-100 p-8 rounded-xl border border-slate-600 space-y-5 text-center shadow-lg">
+        <h2 class="text-xl font-semibold">ATM Simulator</h2>
+        <label class="block text-sm">Enter Amount</label>
+        <input type="text" id="withdrawal"
+            class="w-full p-2 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-slate-950">
+        <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 transition p-2 rounded-md font-semibold">Withdraw</button>
+        <p id="message" class="text-sm"></p>
+    </form>
+
+    <script src="ATM.js"></script>
+
+</body>
+
+</html>
