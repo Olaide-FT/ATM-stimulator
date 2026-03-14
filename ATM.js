@@ -24,7 +24,7 @@ document.getElementById('myAtm').addEventListener('submit', function (e) {
             break;
 
 
-        case withdrawal > 0 && withdrawal <= balance:
+        case withdrawal > 100 && withdrawal <= balance:
 
             let result = myAtm(withdrawal);
 
