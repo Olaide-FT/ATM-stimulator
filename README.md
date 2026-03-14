@@ -14,6 +14,7 @@ Features
  5. Dynamic message feedback
  
  Color-coded responses:
+ 
   Green = Successful transaction
   Red = Error or invalid transaction
   Input field automatically clears after each transaction
@@ -34,4 +35,5 @@ How It Works
 
 
 Author
+
 Built as part of a JavaScript learning project.
